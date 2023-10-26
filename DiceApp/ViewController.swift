@@ -55,8 +55,13 @@ class ViewController: UIViewController {
     
     @objc func rollButtonTapped() {
         let diceArray = [UIImage(named: "DiceOne"), UIImage(named: "DiceTwo"), UIImage(named: "DiceThree"), UIImage(named: "DiceFour"), UIImage(named: "DiceFive"), UIImage(named: "DiceSix")]
-
-        diceView.diceOneImageView.image = diceArray[Int.random(in: 0...5)]
-        diceView.diceTwoImageView.image = diceArray[Int.random(in: 0...5)]
+        
+        if !diceArray.isEmpty {
+            let randomIndex1 = Int.random(in: 0..<diceArray.count)
+            let randomIndex2 = Int.random(in: 0..<diceArray.count)
+            
+            diceView.diceOneImageView.image = diceArray[randomIndex1]
+            diceView.diceTwoImageView.image = diceArray[randomIndex2]
+        }
     }
 }

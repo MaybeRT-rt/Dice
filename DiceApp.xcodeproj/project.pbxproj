@@ -16,6 +16,19 @@
 		4A5AD0392AE9ABA100FDBF30 /* Color_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5AD0382AE9ABA100FDBF30 /* Color_Extensions.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4A5AD0762AEA42F900FDBF30 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		4A5AD01E2AE9208300FDBF30 /* DiceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A5AD0212AE9208300FDBF30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +101,7 @@
 				4A5AD01A2AE9208300FDBF30 /* Sources */,
 				4A5AD01B2AE9208300FDBF30 /* Frameworks */,
 				4A5AD01C2AE9208300FDBF30 /* Resources */,
+				4A5AD0762AEA42F900FDBF30 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
